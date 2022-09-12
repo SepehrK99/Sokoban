@@ -1,0 +1,18 @@
+#playfield {
+    position: relative;
+}
+
+#playfield img {
+    image-rendering: pixelated;
+    position: absolute;
+    transition: left 300ms ease, top 300ms ease;
+}
+
+#win {
+    display: none;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
